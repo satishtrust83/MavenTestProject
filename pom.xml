@@ -6,6 +6,7 @@
 
   <groupId>com.mytestwebste</groupId>
   <artifactId>myapp</artifactId>
+  <packaging>pom</packaging>
   <version>1.0-SNAPSHOT</version>
 
   <name>myapp</name>
@@ -35,6 +36,11 @@
   <groupId>de.pentabyte</groupId>
   <artifactId>google-static-map-creator</artifactId>
   <version>2.3.0</version>
+</dependency>
+<dependency>
+    <groupId>org.apache.maven.plugins</groupId>
+    <artifactId>maven-war-plugin</artifactId>
+    <version>3.2.2</version>
 </dependency>
   </dependencies>
 
